@@ -1,7 +1,7 @@
 FROM jetty:9.3
 
 
-ENV ADAPTER_DOWNLOAD_URL https://downloads.jboss.org/keycloak/2.4.0.Final/adapters/keycloak-oidc/keycloak-jetty93-adapter-dist-2.4.0.Final.tar.gz
+ENV ADAPTER_DOWNLOAD_URL https://downloads.jboss.org/keycloak/2.5.1.Final/adapters/keycloak-oidc/keycloak-jetty93-adapter-dist-2.5.1.Final.tar.gz
 
 RUN cd /usr/local/jetty && \
     curl -SL "$ADAPTER_DOWNLOAD_URL" -o keycloak_adapter.tgz && \
