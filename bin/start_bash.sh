@@ -22,6 +22,6 @@ else
     fi
 fi
 
-docker run -it --rm "$imageName" /bin/bash
+#docker run -it --rm "$imageName" /bin/bash
 
 
